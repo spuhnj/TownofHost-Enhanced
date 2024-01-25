@@ -854,6 +854,7 @@ public enum CustomRoles
     Silent,
     Sleuth,
     Soulless,
+    Statue,
     TicketsStealer, //stealer
     Stubborn,
     Susceptible,
