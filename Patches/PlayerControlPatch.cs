@@ -2638,6 +2638,10 @@ class FixedUpdateInNormalGamePatch
                         PlagueBearer.OnFixedUpdate(player);
                         break;
 
+                    case CustomRoles.Statue:
+                        Statue.OnFixedUpdate(player);
+                        break;
+
                     case CustomRoles.Farseer:
                         Farseer.OnFixedUpdate(player);
                         break;
