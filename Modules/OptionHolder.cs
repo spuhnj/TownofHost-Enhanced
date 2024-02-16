@@ -2693,6 +2693,8 @@ public static class Options
         RascalAppearAsMadmate = BooleanOptionItem.Create(20803, "RascalAppearAsMadmate", true, TabGroup.Addons, false)
             .SetParent(CustomRoleSpawnChances[CustomRoles.Rascal]);
 
+            Statue.SetupCustomOption();
+
         //SetupAdtRoleOptions(20900, CustomRoles.Sunglasses, canSetNum: true);
         //SunglassesVision = FloatOptionItem.Create(20903, "SunglassesVision", new(0f, 5f, 0.05f), 0.75f, TabGroup.Addons, false)
         //    .SetParent(CustomRoleSpawnChances[CustomRoles.Sunglasses])
